@@ -1,0 +1,2572 @@
+﻿Begin Form *
+    Caption = "DeltaRPG"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    Height = 604
+    LoadedHeight = 614
+    LoadedWidth = 726
+    LoadedX = 218
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 726
+    X = 218
+
+
+  Begin ImageBox ImgHallway
+    DrawOnPaint = True
+    Height = 604
+    LoadedHeight = 604
+    LoadedWidth = 506
+    LoadedX = 0
+    LoadedY = 0
+    ParentControl = ""
+    StringValue = "Hallway1.jpg"
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 506
+  End
+
+  Begin ImageBox ImgMonster
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 160
+    LoadedHeight = 160
+    LoadedWidth = 180
+    LoadedX = 169
+    LoadedY = 286
+    ParentControl = ""
+    StringValue = "33.gif"
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 180
+    X = 169
+    Y = 286
+  End
+
+  Begin Label LblStats
+    Background = "&H7E7E7E"
+    Caption = "Label"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&H7E7E7E"
+    GlobalX = 0
+    Height = 604
+    LoadedHeight = 604
+    LoadedWidth = 220
+    LoadedX = 506
+    LoadedY = 0
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 220
+    WordWrap = True
+    X = 506
+  End
+
+  Begin Label LblSpell2
+    Background = "&H0017FF"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 535
+    LoadedY = 350
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 535
+    Y = 350
+  End
+
+  Begin Label LblSpell3
+    Background = "&H0017FF"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 560
+    LoadedY = 350
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 560
+    Y = 350
+  End
+
+  Begin Label lblName
+    Caption = "Name"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 552
+    LoadedY = 55
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 552
+    Y = 55
+  End
+
+  Begin Label LblATK
+    Caption = "Attack:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 511
+    LoadedY = 190
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 511
+    Y = 190
+  End
+
+  Begin Label LblDFS
+    Caption = "Defense:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 513
+    LoadedY = 237
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 513
+    Y = 237
+  End
+
+  Begin Label LblHP
+    Caption = "Health:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 513
+    LoadedY = 147
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 513
+    Y = 147
+  End
+
+  Begin Label LblEXP
+    Caption = "EXP:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 513
+    LoadedY = 283
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 513
+    Y = 283
+  End
+
+  Begin Label LblLevel
+    Caption = "Level"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 550
+    LoadedY = 90
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 550
+    Y = 90
+  End
+
+  Begin Label LblFloor
+    Caption = "Floor: 0F"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 33
+    LoadedHeight = 33
+    LoadedWidth = 130
+    LoadedX = 536
+    LoadedY = 484
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 130
+    WordWrap = True
+    X = 536
+    Y = 484
+  End
+
+  Begin CommandButton CmdATK
+    Caption = "Attack"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 77
+    LoadedHeight = 77
+    LoadedWidth = 113
+    LoadedX = 197
+    LoadedY = 527
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 113
+    X = 197
+    Y = 527
+  End
+
+  Begin CommandButton CmdPotion
+    Caption = "Use Potion"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 75
+    LoadedHeight = 75
+    LoadedWidth = 112
+    LoadedX = 39
+    LoadedY = 529
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 112
+    X = 39
+    Y = 529
+  End
+
+  Begin CommandButton CmdRun
+    Caption = "Run"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 74
+    LoadedHeight = 74
+    LoadedWidth = 114
+    LoadedX = 357
+    LoadedY = 530
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 114
+    X = 357
+    Y = 530
+  End
+
+  Begin Label LblMonsterName
+    Caption = "Name"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 50
+    LoadedHeight = 50
+    LoadedWidth = 171
+    LoadedX = 168
+    LoadedY = 89
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 171
+    WordWrap = True
+    X = 168
+    Y = 89
+  End
+
+  Begin CommandButton CmdQuit
+    Caption = "Quit"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 140
+    LoadedX = 548
+    LoadedY = 562
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 140
+    X = 548
+    Y = 562
+  End
+
+  Begin Label LblMonsterHP
+    Caption = "Health:"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 59
+    LoadedHeight = 59
+    LoadedWidth = 408
+    LoadedX = 60
+    LoadedY = 118
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 408
+    WordWrap = True
+    X = 60
+    Y = 118
+  End
+
+  Begin Label Lblpotion
+    Caption = "Potion:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 537
+    LoadedY = 448
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = False
+    X = 537
+    Y = 448
+  End
+
+  Begin Label LblDescription
+    Caption = "Description"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    FontSize = 28
+    GlobalX = 0
+    GlobalY = 0
+    Height = 93
+    LoadedHeight = 93
+    LoadedWidth = 408
+    LoadedX = 39
+    LoadedY = 15
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 408
+    WordWrap = True
+    X = 39
+    Y = 15
+  End
+
+  Begin CommandButton CmdHelp
+    Caption = "Help"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 140
+    LoadedX = 549
+    LoadedY = 531
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 140
+    X = 549
+    Y = 531
+  End
+
+  Begin CommandButton CmdRight
+    Caption = "Right"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 46
+    LoadedHeight = 46
+    LoadedWidth = 81
+    LoadedX = 373
+    LoadedY = 231
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 81
+    X = 373
+    Y = 231
+  End
+
+  Begin CommandButton CmdLeft
+    Caption = "Left"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 48
+    LoadedHeight = 48
+    LoadedWidth = 83
+    LoadedX = 50
+    LoadedY = 231
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 83
+    X = 50
+    Y = 231
+  End
+
+  Begin ImageBox ImgPotion
+    DrawOnPaint = True
+    GlobalX = 0
+    Height = 21
+    LoadedHeight = 21
+    LoadedWidth = 98
+    LoadedX = 410
+    LoadedY = 0
+    ParentControl = ""
+    StringValue = "potion.png"
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 98
+    X = 410
+  End
+
+  Begin Label LblDebug
+    Caption = "Label"
+    DrawOnPaint = True
+    Enabled = True
+    Height = 39
+    LoadedHeight = 39
+    LoadedWidth = 39
+    LoadedX = 0
+    LoadedY = 0
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 39
+    WordWrap = True
+  End
+
+  Begin Label LblSpell
+    Caption = "Spell:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 509
+    LoadedY = 321
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 120
+    WordWrap = True
+    X = 509
+    Y = 321
+  End
+
+  Begin Label LblUltimate
+    Caption = "Ultimate move:"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 31
+    LoadedHeight = 31
+    LoadedWidth = 151
+    LoadedX = 506
+    LoadedY = 380
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 151
+    WordWrap = True
+    X = 506
+    Y = 380
+  End
+
+  Begin Label LblSpell1
+    Background = "&H0017FF"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&H0017FF"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 510
+    LoadedY = 350
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 510
+    Y = 350
+  End
+
+  Begin Label LblSpell5
+    Background = "&H0017FF"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 610
+    LoadedY = 350
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 610
+    Y = 350
+  End
+
+  Begin Label LblSpell4
+    Background = "&H0017FF"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 585
+    LoadedY = 350
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 585
+    Y = 350
+  End
+
+  Begin Label LblSpellMax
+    Caption = "Max!"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 39
+    LoadedX = 550
+    LoadedY = 347
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 39
+    WordWrap = True
+    X = 550
+    Y = 347
+  End
+
+  Begin CommandButton CmdSpell
+    Caption = "Spell!"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 70
+    LoadedHeight = 70
+    LoadedWidth = 104
+    LoadedX = 138
+    LoadedY = 462
+    ParentControl = ""
+    TabIndex = 0
+    Visible = False
+    Width = 104
+    X = 138
+    Y = 462
+  End
+
+  Begin Label LblUltimate1
+    Background = "&HFF0012"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFF0012"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 510
+    LoadedY = 410
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 510
+    Y = 410
+  End
+
+  Begin Label LblUltimate2
+    Background = "&HFF0012"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 535
+    LoadedY = 410
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 535
+    Y = 410
+  End
+
+  Begin Label LblUltimate3
+    Background = "&HFF0012"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 560
+    LoadedY = 410
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 560
+    Y = 410
+  End
+
+  Begin Label LblUltimate5
+    Background = "&HFF0012"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 610
+    LoadedY = 410
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 610
+    Y = 410
+  End
+
+  Begin Label LblUltimate4
+    Background = "&HFF0012"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 25
+    LoadedX = 585
+    LoadedY = 410
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 585
+    Y = 410
+  End
+
+  Begin Label LblUltimateMax
+    Caption = "Max!"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 50
+    LoadedX = 550
+    LoadedY = 407
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 50
+    WordWrap = True
+    X = 550
+    Y = 407
+  End
+
+  Begin CommandButton CmdUltimate
+    Caption = "Ultimate Move"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 71
+    LoadedHeight = 71
+    LoadedWidth = 129
+    LoadedX = 246
+    LoadedY = 461
+    ParentControl = ""
+    TabIndex = 0
+    Visible = False
+    Width = 129
+    X = 246
+    Y = 461
+  End
+
+  Begin CommandButton Cmdmiddle
+    Caption = "Middle"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 47
+    LoadedHeight = 47
+    LoadedWidth = 82
+    LoadedX = 215
+    LoadedY = 231
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 82
+    X = 215
+    Y = 231
+  End
+
+  Begin ImageBox ImgCross
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 182
+    LoadedHeight = 182
+    LoadedWidth = 184
+    LoadedX = 166
+    LoadedY = 272
+    ParentControl = ""
+    StringValue = "cross.png"
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 184
+    X = 166
+    Y = 272
+  End
+
+  Begin Label LblWin
+    Background = "&HFFFFFFF"
+    Caption = "Congrats! you beat the game!"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 62
+    LoadedHeight = 62
+    LoadedWidth = 201
+    LoadedX = 158
+    LoadedY = 239
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 201
+    WordWrap = True
+    X = 158
+    Y = 239
+  End
+
+  Begin Label LblGameOver
+    Background = "&HFF0000"
+    Caption = "Game Over"
+    DrawOnPaint = True
+    Enabled = True
+    FontSize = 125
+    GlobalY = 0
+    Height = 268
+    LoadedHeight = 268
+    LoadedWidth = 675
+    LoadedX = 0
+    LoadedY = 176
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 675
+    WordWrap = True
+    Y = 176
+  End
+
+  Begin CommandButton CmdRestartF1
+    Caption = "Restart from F1"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 140
+    LoadedX = 139
+    LoadedY = 391
+    ParentControl = ""
+    TabIndex = 0
+    Visible = False
+    Width = 140
+    X = 139
+    Y = 391
+  End
+
+  Begin CommandButton CmdRestartFX
+    Caption = "Restart from last floor "
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 172
+    LoadedX = 329
+    LoadedY = 390
+    ParentControl = ""
+    TabIndex = 0
+    Visible = False
+    Width = 172
+    X = 329
+    Y = 390
+  End
+
+  Begin Timer Tmrmusic
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 20
+    Interval = 100000
+    LoadedHeight = 20
+    LoadedWidth = 200
+    LoadedX = 183
+    LoadedY = 15
+    ParentControl = ""
+    TabIndex = 0
+    Width = 200
+    X = 183
+    Y = 15
+  End
+
+End Form
+/* 
+Yuya Oguchi
+12/6/12
+Final Project:Delta RPG
+Version 3.5
+*/
+Dim PlayerName as String
+Dim Response as integer
+Dim path as integer
+Dim Counter as integer
+Dim Reply as integer
+
+Dim PlayerLevel as integer
+Dim PlayerATK as integer
+Dim PlayerDFS as integer
+Dim PlayerHP as integer
+Dim PlayerHPOriginal as integer
+Dim PlayerEXP as integer
+
+Dim MonsterATK as integer
+Dim MonsterDFS as integer
+Dim MonsterHP as integer
+Dim MonsterHPOriginal as integer
+Dim MonsterEXP as integer
+Dim MonsterName as string
+
+Dim MonsterDamage as integer
+Dim PlayerDamage as integer
+
+Dim ATKcount as integer
+
+Dim MonsterWeak as integer
+Dim MonsterMedium as integer
+Dim MonsterHard as integer
+Dim MonsterExtreme as integer
+
+Dim Floor as integer
+Dim Floorlevel as integer
+
+Dim Potiondrop as integer
+Dim potion as integer
+Dim potionchance as integer
+
+Dim runaway as integer  
+  
+Dim SpellDamage as integer
+Dim UltimateDamage as integer
+
+
+
+Private Sub Form_OnKeyDown(KeyCode As Integer, Shift As Boolean, Control As Boolean, Alt As Boolean)
+  'Attack, Spell, Ultimate move, select path (right, left, middle), Run, and Use potion
+  
+  'Cheat code
+      If KeyCode = Key.K Then
+        PlayerATK = PlayerATK + 200
+        lblATK.caption = "Attack: " & PlayerATK
+        PlayerDFS = PlayerDFS + 200
+        lblDFS.caption = "Defense: " & PlayerDFS
+        PlayerHP = PlayerHP + 1000
+        PlayerHPOriginal = PlayerHPOriginal + 1000
+        lblHP.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+        
+    End if
+  'Attack key
+      If KeyCode = Key.A Then
+        if lblGameover.visible = False and imgcross.visible = False then
+        CmdATK_OnEvent()
+    End If
+    End if
+  'Potion key
+      If KeyCode = Key.P Then
+        if lblGameover.visible = False and imgcross.visible = False then
+        CmdPotion_OnEvent()
+    End If 
+    End if        
+  'Ultimate key
+      If KeyCode = Key.U Then
+        if lblGameover.visible = False and imgcross.visible = False and lblUltimateMax.visible = True then
+        CmdUltimate_OnEvent()
+    End If  
+    End if
+  'Spell key
+    If KeyCode = Key.S Then
+       if lblGameover.visible = False and imgcross.visible = False and lblSpellMax.visible = True then
+        CmdSpell_OnEvent()
+    End if
+    End if
+  'Select Right path 
+        If KeyCode = Key.Right Then
+    if CmdRight.visible = True then
+        CmdRight_OnEvent()
+    end if
+    End If
+  
+  'Select middle path
+    If KeyCode = Key.Up Then
+    if CmdMiddle.visible = True then
+        CmdMiddle_OnEvent()
+    End If
+    end if
+
+  'Select Left path
+    If KeyCode = Key.Left Then
+    if Cmdleft.visible = True then
+        CmdLeft_OnEvent()
+    End If 
+    End if
+
+End Sub 
+
+
+Private Sub Form_OnOpen()
+/* Player's name */
+PlayerName = inputbox("What is your name?") 
+lblName.caption =  PlayerName
+/* Player's original stats */
+lblHP.caption = "HP: 15/15 "
+lblATK.caption = "Attack: 5"
+lblDFS.caption = "Defense: 2"
+PlayerHP = 15
+Reply = msgbox("Would you like to have tutorial before proceeding?",kbretrycancel,"")
+if reply = 1 then 
+msgbox("The objective of this game is to defeat monsters on each level and eventually defeat BOSS to clear the game.")
+msgbox("You may use either attack, spell, potion, run, or Ultimate move to fight monsters.")
+msgbox("You can use <, ^, or >, key on computer to select path between left, middle, or right")
+msgbox("Press A for attack, P for potion, S for spell, U for Ultimate move, and R for run")
+msgbox("there is also a cheat key somewhere, find it and you will be rewarded with fortune.")
+msgbox("Thats all you need to know for now, good luck with this journey to this DeltaRPG. Enjoy!")
+End if
+End Sub
+
+
+
+
+Private Sub CmdMiddle_OnEvent()
+  cmdpotion.visible = True
+  cmdATK.visible = True
+  cmdRun.visible = True
+  'display spells and moves if guage is full
+  If LblSpellMax.visible = True then
+    CmdSpell.visible = True
+  end if  
+  If LblUltimateMax.visible = true then 
+    cmdUltimate.visible = true
+  end if
+  
+  Path = int(10 * Rnd) 
+  lblDebug.caption = path
+  imgpotion.visible = False
+
+'drop potion at 30% chance
+if path = 0 or 1 or 2 then 
+  potion = potion + 1
+  Lbldescription.caption = "You got a Potion"
+  lblpotion.caption = "Potion: " & potion
+  Imgpotion.visible = true
+end if
+
+
+/* make this button invisible and enable ATK command for player to attack next monster */
+CmdMiddle.visible = False
+CmdRight.visible = False
+CmdLeft.visible = False
+CmdATK.enabled = True
+ImgCross.visible = False
+ Floor = Floor + 1
+imgpotion.visible = False 
+imgmonster.visible = True
+ 
+ /*weak 3 on each floor*/
+ /*1-2*/
+ If Floor > 0 and floor < 3 then floorlevel = 1
+ /*3-5*/
+ If Floor > 2 and floor < 6 then floorlevel = 2
+ /*6-8*/
+ If Floor > 5 and floor < 9 then floorlevel = 3
+ /*9-11*/
+ If Floor > 8 and floor < 12 then floorlevel = 4
+ /*12-15*/
+ If Floor > 11 and floor < 16 then floorlevel = 5
+/*Medium 4 on each floor*/
+ /*16-19*/
+ If Floor > 15 and floor < 20 then floorlevel = 6
+ /*20-23*/
+ If Floor > 19 and floor < 24 then floorlevel = 7
+ /*24-27*/
+ If Floor > 23 and floor < 28 then floorlevel = 8
+ /*28-31*/
+ If Floor > 27 and floor < 32 then floorlevel = 9
+ /*32-35*/
+ If Floor > 31 and floor < 36 then floorlevel = 10
+ /*Hard 5 on each floor*/
+ /*36-40*/
+ If Floor > 35 and floor < 41 then floorlevel = 11
+ /*41-45*/
+ If Floor > 40 and floor < 46 then floorlevel = 12
+ /*46-50*/
+ If Floor > 45 and floor < 51 then floorlevel = 13
+ /*Extreme level*/
+ /*51-55*/
+ If Floor > 50 and floor < 56 then floorlevel = 14
+ /*56-60*/
+ If Floor > 55 and floor < 61 then floorlevel = 15
+
+ /*Boss*/
+ If Floor = 70 then floorlevel = 16
+ 
+ if floor = 71 then floorlevel = 17
+ 
+ 
+  /* F1-5: Summon weak monsters */
+if floorlevel > 0 and floorlevel < 6 then 
+  /* Randomize what monster will be displayed*/
+  MonsterWeak = int(10 * Rnd) + 1
+  if monsterWeak = 1 then 
+   ImgMonster.Value = "1.gif"
+   lblMonsterName.caption = "Rabiril"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if 
+  if monsterWeak = 2 then 
+   ImgMonster.Value = "2.gif"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   lblMonsterName.caption = "Anteater"
+   end if
+  if monsterWeak = 3 then 
+   ImgMonster.Value = "3.gif"
+   lblMonsterName.caption = "Batchar"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 4 then 
+    ImgMonster.Value = "4.gif"
+   lblMonsterName.caption = "Devila"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 5 then 
+    ImgMonster.Value = "5.gif"
+   lblMonsterName.caption = "Rabitol"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 6 then 
+    ImgMonster.Value = "6.gif"
+   lblMonsterName.caption = "Cyclopes"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 7 then 
+    ImgMonster.Value = "7.gif"
+   lblMonsterName.caption = "Batamon"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 8 then 
+    ImgMonster.Value = "8.gif"
+   lblMonsterName.caption = "Smasher"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 9 then 
+    ImgMonster.Value = "9.gif"  
+   lblMonsterName.caption = "Drillmole"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+  if monsterWeak = 10 then 
+    ImgMonster.Value = "10.gif"
+   lblMonsterName.caption = "Cyclone"
+   ImgMonster.width = 180
+   ImgMonster.Height = 160
+   end if
+   
+   PotionChance = 1 or 2 or 3 or 4 or 5
+  
+    /* Monster ATK Pts */
+    MonsterATK = int(3 * Rnd) + 2
+    /* Monster DFS Pts */
+    MonsterDFS = int(2 * Rnd)
+    /* Monster HP Pts, Display the HP */
+    MonsterHP = int( 10 * Rnd) + 5
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+ /* Display the current floor */   
+ LblFloor.caption = "Floor: " & FloorLevel & " F"
+ /* Randomize EXP player will get for defeating the monster */
+ MonsterEXP = int(5 *Rnd) + 5
+End if 
+
+
+ /* F6-10: Summon Medium monsters */
+if floorlevel > 5 and floorlevel < 11 then 
+  MonsterMedium = int(10 * Rnd) + 1
+  if MonsterMedium = 1 then 
+  ImgMonster.Value = "11.gif"
+  lblMonsterName.caption = "Salavia" 
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 2 then 
+  ImgMonster.Value = "12.gif"
+  lblMonsterName.caption = "Pikko"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 3 then 
+  ImgMonster.Value = "13.gif"
+  lblMonsterName.caption = "Elephan"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 4 then 
+  ImgMonster.Value = "14.gif"
+  lblMonsterName.caption = "Fatbat"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 5 then 
+  ImgMonster.Value = "15.gif"
+  lblMonsterName.caption = "swirl"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 6 then 
+  ImgMonster.Value = "16.gif"
+  lblMonsterName.caption = "Needra"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 7 then 
+  ImgMonster.Value = "17.gif"
+  lblMonsterName.caption = "Greed"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 8 then 
+  ImgMonster.Value = "18.gif"
+  lblMonsterName.caption = "Macho"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 9 then 
+  ImgMonster.Value = "19.gif"  
+  lblMonsterName.caption = "Dra"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterMedium = 10 then 
+  ImgMonster.Value = "20.gif"
+  lblMonsterName.caption = "Headreap"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  
+  PotionChance = 1 or 2 or 3 or 4
+    /* Monster ATK Pts */
+    MonsterATK = int(20 * Rnd) + 40
+    /* Monster DFS Pts */
+    MonsterDFS = int(15 * Rnd) + 30
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(50 * Rnd) + 150
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */ 
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(5 *Rnd) + 15
+End if 
+
+
+ /* F11-13: Summon Hard monsters */
+if floorlevel >10 and floorlevel < 14 then 
+  MonsterHard = int(10 * Rnd) + 1
+  if MonsterHard = 1 then 
+  ImgMonster.Value = "21.gif"
+  lblMonsterName.caption = "Mager"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 2 then 
+  ImgMonster.Value = "22.gif"
+  lblMonsterName.caption = "DraDra"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 3 then 
+  ImgMonster.Value = "23.gif"
+  lblMonsterName.caption = "Liock"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 4 then 
+  ImgMonster.Value = "24.gif"
+  lblMonsterName.caption = "Slimer"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 5 then 
+  ImgMonster.Value = "25.gif"
+  lblMonsterName.caption = "Cheater"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 6 then 
+  ImgMonster.Value = "26.gif"
+  lblMonsterName.caption = "Drakul"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 7 then 
+  ImgMonster.Value = "27.gif"
+  lblMonsterName.caption = "Demonguard"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 8 then 
+  ImgMonster.Value = "28.gif"
+  lblMonsterName.caption = "Magnam"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 9 then 
+  ImgMonster.Value = "29.gif"  
+  lblMonsterName.caption = "Swordfighter"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterHard = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Saian"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 500
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 200
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 500
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+ /* F14-15: Summon Extreme monsters */
+if floorlevel >13 and floorlevel < 16 then 
+  MonsterExtreme = int(10 * Rnd) + 1
+  if MonsterExtreme = 1 then 
+  ImgMonster.Value = "31.gif"
+  lblMonsterName.caption = "Mappa"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 2 then 
+  ImgMonster.Value = "32.gif"
+  lblMonsterName.caption = "SoulReaper"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 3 then 
+  ImgMonster.Value = "33.gif"
+  lblMonsterName.caption = "Nightmare"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 4 then 
+  ImgMonster.Value = "34.gif"
+  lblMonsterName.caption = "HellSkelter"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 5 then
+  ImgMonster.Value = "35.gif"
+  lblMonsterName.caption = "Alpha"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 6 then
+    ImgMonster.Value = "36.gif"
+  lblMonsterName.caption = "Shishi"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 7 then 
+  ImgMonster.Value = "37.gif"
+  lblMonsterName.caption = "DemonBacket"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 8 then 
+  ImgMonster.Value = "38.gif"
+  lblMonsterName.caption = "Devil"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 9 then 
+  ImgMonster.Value = "39.gif"  
+  lblMonsterName.caption = "Mao"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  if MonsterExtreme = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Slith"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 900
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 170
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 2000
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+
+/* F21: Summon Boss */
+if floorlevel = 16 then 
+  ImgMonster.Value = "41.gif"
+  lblMonsterName.caption = "Death"
+  ImgMonster.width = 180
+  ImgMonster.Height = 160
+    /* Monster ATK Pts */
+    MonsterATK = int(5 * Rnd) + 9000
+    /* Monster DFS Pts */
+    MonsterDFS = int(5 * Rnd) + 9000
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = 500000
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & 500000
+   LblFloor.caption = "Floor: Boss"
+End if 
+
+'after defeat the boss
+If floorlevel = 17 then 
+  lblWin.visible = True
+  CmdPotion.visible = False
+  CmdATK.visible = False
+  CmdRun.visible = false
+  CmdSpell.visible = false
+  CmdUltimate.visible = False
+  imgMonster.visible = False
+  cmdMiddle.visible = false
+  cmdRIght.visible = false
+  CmdLeft.visible = false
+End if
+
+end sub
+
+
+
+
+
+
+
+
+Private Sub CmdRight_OnEvent()
+  cmdpotion.visible = True
+  cmdATK.visible = True
+  cmdRun.visible = True
+  'display spells and moves if guage is full
+  If LblSpellMax.visible = True then
+    CmdSpell.visible = True
+  end if  
+  If LblUltimateMax.visible = true then 
+    cmdUltimate.visible = true
+  end if
+  
+  Path = int(10 * Rnd) 
+  lblDebug.caption = path
+  imgpotion.visible = False
+
+'drop potion at 20% chance
+if path = 0 or 1 then 
+  potion = potion + 1
+  Lbldescription.caption = "You got a Potion"
+  lblpotion.caption = "Potion: " & potion
+  Imgpotion.visible = true
+end if
+
+
+/* make this button invisible and enable ATK command for player to attack next monster */
+CmdMiddle.visible = False
+CmdRight.visible = False
+CmdLeft.visible = False
+CmdATK.enabled = True
+ImgCross.visible = False
+ Floor = Floor + 1
+imgpotion.visible = False 
+imgmonster.visible = True
+ 
+ /*weak 3 on each floor*/
+ /*1-2*/
+ If Floor > 0 and floor < 3 then floorlevel = 1
+ /*3-5*/
+ If Floor > 2 and floor < 6 then floorlevel = 2
+ /*6-8*/
+ If Floor > 5 and floor < 9 then floorlevel = 3
+ /*9-11*/
+ If Floor > 8 and floor < 12 then floorlevel = 4
+ /*12-15*/
+ If Floor > 11 and floor < 16 then floorlevel = 5
+/*Medium 4 on each floor*/
+ /*16-19*/
+ If Floor > 15 and floor < 20 then floorlevel = 6
+ /*20-23*/
+ If Floor > 19 and floor < 24 then floorlevel = 7
+ /*24-27*/
+ If Floor > 23 and floor < 28 then floorlevel = 8
+ /*28-31*/
+ If Floor > 27 and floor < 32 then floorlevel = 9
+ /*32-35*/
+ If Floor > 31 and floor < 36 then floorlevel = 10
+ /*Hard 5 on each floor*/
+ /*36-40*/
+ If Floor > 35 and floor < 41 then floorlevel = 11
+ /*41-45*/
+ If Floor > 40 and floor < 46 then floorlevel = 12
+ /*46-50*/
+ If Floor > 45 and floor < 51 then floorlevel = 13
+ /*Extreme level*/
+ /*51-55*/
+ If Floor > 50 and floor < 56 then floorlevel = 14
+ /*56-60*/
+ If Floor > 55 and floor < 61 then floorlevel = 15
+
+ /*Boss*/
+ If Floor = 70 then floorlevel = 16
+ 
+ if floor = 71 then floorlevel = 17
+ 
+ 
+  /* F1-5: Summon weak monsters */
+if floorlevel > 0 and floorlevel < 6 then 
+  /* Randomize what monster will be displayed*/
+  MonsterWeak = int(10 * Rnd) + 1
+  if monsterWeak = 1 then 
+   ImgMonster.Value = "1.gif"
+   lblMonsterName.caption = "Rabiril"
+   end if 
+  if monsterWeak = 2 then 
+   ImgMonster.Value = "2.gif"
+   lblMonsterName.caption = "Anteater"
+   end if
+  if monsterWeak = 3 then 
+   ImgMonster.Value = "3.gif"
+   lblMonsterName.caption = "Batchar"
+   end if
+  if monsterWeak = 4 then 
+    ImgMonster.Value = "4.gif"
+   lblMonsterName.caption = "Devila"
+   end if
+  if monsterWeak = 5 then 
+    ImgMonster.Value = "5.gif"
+   lblMonsterName.caption = "Rabitol"
+   end if
+  if monsterWeak = 6 then 
+    ImgMonster.Value = "6.gif"
+   lblMonsterName.caption = "Cyclopes"
+   end if
+  if monsterWeak = 7 then 
+    ImgMonster.Value = "7.gif"
+   lblMonsterName.caption = "Batamon"
+   end if
+  if monsterWeak = 8 then 
+    ImgMonster.Value = "8.gif"
+   lblMonsterName.caption = "Smasher"
+   end if
+  if monsterWeak = 9 then 
+    ImgMonster.Value = "9.gif"  
+   lblMonsterName.caption = "Drillmole"
+   end if
+  if monsterWeak = 10 then 
+    ImgMonster.Value = "10.gif"
+   lblMonsterName.caption = "Cyclone"
+   end if
+   
+   PotionChance = 1 or 2 or 3 or 4 or 5
+  
+    /* Monster ATK Pts */
+    MonsterATK = int(3 * Rnd) + 2
+    /* Monster DFS Pts */
+    MonsterDFS = int(2 * Rnd)
+    /* Monster HP Pts, Display the HP */
+    MonsterHP = int( 10 * Rnd) + 5
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+ /* Display the current floor */   
+ LblFloor.caption = "Floor: " & FloorLevel & " F"
+ /* Randomize EXP player will get for defeating the monster */
+ MonsterEXP = int(5 *Rnd) + 5
+End if 
+
+
+ /* F6-10: Summon Medium monsters */
+if floorlevel > 5 and floorlevel < 11 then 
+  MonsterMedium = int(10 * Rnd) + 1
+  if MonsterMedium = 1 then 
+  ImgMonster.Value = "11.gif"
+  lblMonsterName.caption = "Salavia"
+  end if
+  if MonsterMedium = 2 then 
+  ImgMonster.Value = "12.gif"
+  lblMonsterName.caption = "Pikko"
+  end if
+  if MonsterMedium = 3 then 
+  ImgMonster.Value = "13.gif"
+  lblMonsterName.caption = "Elephan"
+  end if
+  if MonsterMedium = 4 then 
+  ImgMonster.Value = "14.gif"
+  lblMonsterName.caption = "Fatbat"
+  end if
+  if MonsterMedium = 5 then 
+  ImgMonster.Value = "15.gif"
+  lblMonsterName.caption = "swirl"
+  end if
+  if MonsterMedium = 6 then 
+  ImgMonster.Value = "16.gif"
+  lblMonsterName.caption = "Needra"
+  end if
+  if MonsterMedium = 7 then 
+  ImgMonster.Value = "17.gif"
+  lblMonsterName.caption = "Greed"
+  end if
+  if MonsterMedium = 8 then 
+  ImgMonster.Value = "18.gif"
+  lblMonsterName.caption = "Macho"
+  end if
+  if MonsterMedium = 9 then 
+  ImgMonster.Value = "19.gif"  
+  lblMonsterName.caption = "Dra"
+  end if
+  if MonsterMedium = 10 then 
+  ImgMonster.Value = "20.gif"
+  lblMonsterName.caption = "Headreap"
+  end if
+  
+  PotionChance = 1 or 2 or 3 or 4
+    /* Monster ATK Pts */
+    MonsterATK = int(20 * Rnd) + 40
+    /* Monster DFS Pts */
+    MonsterDFS = int(15 * Rnd) + 30
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(50 * Rnd) + 150
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */ 
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(5 *Rnd) + 15
+End if 
+
+
+ /* F11-13: Summon Hard monsters */
+if floorlevel >10 and floorlevel < 14 then 
+  MonsterHard = int(10 * Rnd) + 1
+  if MonsterHard = 1 then 
+  ImgMonster.Value = "21.gif"
+  lblMonsterName.caption = "Mager"
+  end if
+  if MonsterHard = 2 then 
+  ImgMonster.Value = "22.gif"
+  lblMonsterName.caption = "DraDra"
+  end if
+  if MonsterHard = 3 then 
+  ImgMonster.Value = "23.gif"
+  lblMonsterName.caption = "Liock"
+  end if
+  if MonsterHard = 4 then 
+  ImgMonster.Value = "24.gif"
+  lblMonsterName.caption = "Slimer"
+  end if
+  if MonsterHard = 5 then 
+  ImgMonster.Value = "25.gif"
+  lblMonsterName.caption = "Cheater"
+  end if
+  if MonsterHard = 6 then 
+  ImgMonster.Value = "26.gif"
+  lblMonsterName.caption = "Drakul"
+  end if
+  if MonsterHard = 7 then 
+  ImgMonster.Value = "27.gif"
+  lblMonsterName.caption = "Demonguard"
+  end if
+  if MonsterHard = 8 then 
+  ImgMonster.Value = "28.gif"
+  lblMonsterName.caption = "Magnam"
+  end if
+  if MonsterHard = 9 then 
+  ImgMonster.Value = "29.gif"  
+  lblMonsterName.caption = "Swordfighter"
+  end if
+  if MonsterHard = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Saian"
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 200
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 150
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 600
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+ /* F14-15: Summon Extreme monsters */
+if floorlevel >13 and floorlevel < 16 then 
+  MonsterExtreme = int(10 * Rnd) + 1
+  if MonsterExtreme = 1 then 
+  ImgMonster.Value = "31.gif"
+  lblMonsterName.caption = "Mappa"
+  end if
+  if MonsterExtreme = 2 then 
+  ImgMonster.Value = "32.gif"
+  lblMonsterName.caption = "SoulReaper"
+  end if
+  if MonsterExtreme = 3 then 
+  ImgMonster.Value = "33.gif"
+  lblMonsterName.caption = "Nightmare"
+  end if
+  if MonsterExtreme = 4 then 
+  ImgMonster.Value = "34.gif"
+  lblMonsterName.caption = "HellSkelter"
+  end if
+  if MonsterExtreme = 5 then
+  ImgMonster.Value = "35.gif"
+  lblMonsterName.caption = "Alpha"
+  end if
+  if MonsterExtreme = 6 then
+    ImgMonster.Value = "36.gif"
+  lblMonsterName.caption = "Shishi"
+  end if
+  if MonsterExtreme = 7 then 
+  ImgMonster.Value = "37.gif"
+  lblMonsterName.caption = "DemonBacket"
+  end if
+  if MonsterExtreme = 8 then 
+  ImgMonster.Value = "38.gif"
+  lblMonsterName.caption = "Devil"
+  end if
+  if MonsterExtreme = 9 then 
+  ImgMonster.Value = "39.gif"  
+  lblMonsterName.caption = "Mao"
+  end if
+  if MonsterExtreme = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Slith"
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 600
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 170
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 3000
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+
+/* F21: Summon Boss */
+if floorlevel = 16 then 
+  ImgMonster.Value = "41.gif"
+  lblMonsterName.caption = "Death"
+    /* Monster ATK Pts */
+    MonsterATK = int(5 * Rnd) + 9000
+    /* Monster DFS Pts */
+    MonsterDFS = int(5 * Rnd) + 9000
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = 500000
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & 500000
+   LblFloor.caption = "Floor: Boss"
+End if 
+
+'after defeat the boss
+If floorlevel = 17 then 
+  lblWin.visible = True
+  CmdPotion.visible = False
+  CmdATK.visible = False
+  CmdRun.visible = false
+  CmdSpell.visible = false
+  CmdUltimate.visible = False
+  imgMonster.visible = False
+  cmdMiddle.visible = false
+  cmdRIght.visible = false
+  CmdLeft.visible = false
+End if
+
+End Sub
+  
+  
+  
+  
+  
+  
+  
+  
+Private Sub CmdLeft_OnEvent()
+  cmdpotion.visible = True
+  cmdATK.visible = True
+  cmdRun.visible = True
+  'display spells and moves if guage is full
+  If LblSpellMax.visible = True then
+    CmdSpell.visible = True
+  end if  
+  If LblUltimateMax.visible = true then 
+    cmdUltimate.visible = true
+  end if
+  
+  Path = int(10 * Rnd) 
+  lblDebug.caption = path
+  imgpotion.visible = False
+
+'drop potion at 10% chance
+if path = 0 then 
+  potion = potion + 1
+  Lbldescription.caption = "You got a Potion"
+  lblpotion.caption = "Potion: " & potion
+  Imgpotion.visible = true
+end if
+
+
+/* make this button invisible and enable ATK command for player to attack next monster */
+CmdMiddle.visible = False
+CmdRight.visible = False
+CmdLeft.visible = False
+CmdATK.enabled = True
+ImgCross.visible = False
+ Floor = Floor + 1
+imgpotion.visible = False 
+imgmonster.visible = True
+ 
+ /*weak 3 on each floor*/
+ /*1-2*/
+ If Floor > 0 and floor < 3 then floorlevel = 1
+ /*3-5*/
+ If Floor > 2 and floor < 6 then floorlevel = 2
+ /*6-8*/
+ If Floor > 5 and floor < 9 then floorlevel = 3
+ /*9-11*/
+ If Floor > 8 and floor < 12 then floorlevel = 4
+ /*12-15*/
+ If Floor > 11 and floor < 16 then floorlevel = 5
+/*Medium 4 on each floor*/
+ /*16-19*/
+ If Floor > 15 and floor < 20 then floorlevel = 6
+ /*20-23*/
+ If Floor > 19 and floor < 24 then floorlevel = 7
+ /*24-27*/
+ If Floor > 23 and floor < 28 then floorlevel = 8
+ /*28-31*/
+ If Floor > 27 and floor < 32 then floorlevel = 9
+ /*32-35*/
+ If Floor > 31 and floor < 36 then floorlevel = 10
+ /*Hard 5 on each floor*/
+ /*36-40*/
+ If Floor > 35 and floor < 41 then floorlevel = 11
+ /*41-45*/
+ If Floor > 40 and floor < 46 then floorlevel = 12
+ /*46-50*/
+ If Floor > 45 and floor < 51 then floorlevel = 13
+ /*Extreme level*/
+ /*51-55*/
+ If Floor > 50 and floor < 56 then floorlevel = 14
+ /*56-60*/
+ If Floor > 55 and floor < 61 then floorlevel = 15
+
+ /*Boss*/
+ If Floor = 70 then floorlevel = 16
+ 
+ if floor = 71 then floorlevel = 17
+ 
+ 
+  /* F1-5: Summon weak monsters */
+if floorlevel > 0 and floorlevel < 6 then 
+  /* Randomize what monster will be displayed*/
+  MonsterWeak = int(10 * Rnd) + 1
+  if monsterWeak = 1 then 
+   ImgMonster.Value = "1.gif"
+   lblMonsterName.caption = "Rabiril"
+   end if 
+  if monsterWeak = 2 then 
+   ImgMonster.Value = "2.gif"
+   lblMonsterName.caption = "Anteater"
+   end if
+  if monsterWeak = 3 then 
+   ImgMonster.Value = "3.gif"
+   lblMonsterName.caption = "Batchar"
+   end if
+  if monsterWeak = 4 then 
+    ImgMonster.Value = "4.gif"
+   lblMonsterName.caption = "Devila"
+   end if
+  if monsterWeak = 5 then 
+    ImgMonster.Value = "5.gif"
+   lblMonsterName.caption = "Rabitol"
+   end if
+  if monsterWeak = 6 then 
+    ImgMonster.Value = "6.gif"
+   lblMonsterName.caption = "Cyclopes"
+   end if
+  if monsterWeak = 7 then 
+    ImgMonster.Value = "7.gif"
+   lblMonsterName.caption = "Batamon"
+   end if
+  if monsterWeak = 8 then 
+    ImgMonster.Value = "8.gif"
+   lblMonsterName.caption = "Smasher"
+   end if
+  if monsterWeak = 9 then 
+    ImgMonster.Value = "9.gif"  
+   lblMonsterName.caption = "Drillmole"
+   end if
+  if monsterWeak = 10 then 
+    ImgMonster.Value = "10.gif"
+   lblMonsterName.caption = "Cyclone"
+   end if
+   
+   PotionChance = 1 or 2 or 3 or 4 or 5
+  
+    /* Monster ATK Pts */
+    MonsterATK = int(3 * Rnd) + 2
+    /* Monster DFS Pts */
+    MonsterDFS = int(2 * Rnd)
+    /* Monster HP Pts, Display the HP */
+    MonsterHP = int( 10 * Rnd) + 5
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+ /* Display the current floor */   
+ LblFloor.caption = "Floor: " & FloorLevel & " F"
+ /* Randomize EXP player will get for defeating the monster */
+ MonsterEXP = int(5 *Rnd) + 5
+End if 
+
+
+ /* F6-10: Summon Medium monsters */
+if floorlevel > 5 and floorlevel < 11 then 
+  MonsterMedium = int(10 * Rnd) + 1
+  if MonsterMedium = 1 then 
+  ImgMonster.Value = "11.gif"
+  lblMonsterName.caption = "Salavia"
+  end if
+  if MonsterMedium = 2 then 
+  ImgMonster.Value = "12.gif"
+  lblMonsterName.caption = "Pikko"
+  end if
+  if MonsterMedium = 3 then 
+  ImgMonster.Value = "13.gif"
+  lblMonsterName.caption = "Elephan"
+  end if
+  if MonsterMedium = 4 then 
+  ImgMonster.Value = "14.gif"
+  lblMonsterName.caption = "Fatbat"
+  end if
+  if MonsterMedium = 5 then 
+  ImgMonster.Value = "15.gif"
+  lblMonsterName.caption = "swirl"
+  end if
+  if MonsterMedium = 6 then 
+  ImgMonster.Value = "16.gif"
+  lblMonsterName.caption = "Needra"
+  end if
+  if MonsterMedium = 7 then 
+  ImgMonster.Value = "17.gif"
+  lblMonsterName.caption = "Greed"
+  end if
+  if MonsterMedium = 8 then 
+  ImgMonster.Value = "18.gif"
+  lblMonsterName.caption = "Macho"
+  end if
+  if MonsterMedium = 9 then 
+  ImgMonster.Value = "19.gif"  
+  lblMonsterName.caption = "Dra"
+  end if
+  if MonsterMedium = 10 then 
+  ImgMonster.Value = "20.gif"
+  lblMonsterName.caption = "Headreap"
+  end if
+  
+  PotionChance = 1 or 2 or 3 or 4
+    /* Monster ATK Pts */
+    MonsterATK = int(20 * Rnd) + 40
+    /* Monster DFS Pts */
+    MonsterDFS = int(15 * Rnd) + 30
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(50 * Rnd) + 150
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */ 
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(5 *Rnd) + 15
+End if 
+
+
+ /* F11-13: Summon Hard monsters */
+if floorlevel >10 and floorlevel < 14 then 
+  MonsterHard = int(10 * Rnd) + 1
+  if MonsterHard = 1 then 
+  ImgMonster.Value = "21.gif"
+  lblMonsterName.caption = "Mager"
+  end if
+  if MonsterHard = 2 then 
+  ImgMonster.Value = "22.gif"
+  lblMonsterName.caption = "DraDra"
+  end if
+  if MonsterHard = 3 then 
+  ImgMonster.Value = "23.gif"
+  lblMonsterName.caption = "Liock"
+  end if
+  if MonsterHard = 4 then 
+  ImgMonster.Value = "24.gif"
+  lblMonsterName.caption = "Slimer"
+  end if
+  if MonsterHard = 5 then 
+  ImgMonster.Value = "25.gif"
+  lblMonsterName.caption = "Cheater"
+  end if
+  if MonsterHard = 6 then 
+  ImgMonster.Value = "26.gif"
+  lblMonsterName.caption = "Drakul"
+  end if
+  if MonsterHard = 7 then 
+  ImgMonster.Value = "27.gif"
+  lblMonsterName.caption = "Demonguard"
+  end if
+  if MonsterHard = 8 then 
+  ImgMonster.Value = "28.gif"
+  lblMonsterName.caption = "Magnam"
+  end if
+  if MonsterHard = 9 then 
+  ImgMonster.Value = "29.gif"  
+  lblMonsterName.caption = "Swordfighter"
+  end if
+  if MonsterHard = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Saian"
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 250
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 200
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 400
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+ /* F14-15: Summon Extreme monsters */
+if floorlevel >13 and floorlevel < 16 then 
+  MonsterExtreme = int(10 * Rnd) + 1
+  if MonsterExtreme = 1 then 
+  ImgMonster.Value = "31.gif"
+  lblMonsterName.caption = "Mappa"
+  end if
+  if MonsterExtreme = 2 then 
+  ImgMonster.Value = "32.gif"
+  lblMonsterName.caption = "SoulReaper"
+  end if
+  if MonsterExtreme = 3 then 
+  ImgMonster.Value = "33.gif"
+  lblMonsterName.caption = "Nightmare"
+  end if
+  if MonsterExtreme = 4 then 
+  ImgMonster.Value = "34.gif"
+  lblMonsterName.caption = "HellSkelter"
+  end if
+  if MonsterExtreme = 5 then
+  ImgMonster.Value = "35.gif"
+  lblMonsterName.caption = "Alpha"
+  end if
+  if MonsterExtreme = 6 then
+    ImgMonster.Value = "36.gif"
+  lblMonsterName.caption = "Shishi"
+  end if
+  if MonsterExtreme = 7 then 
+  ImgMonster.Value = "37.gif"
+  lblMonsterName.caption = "DemonBacket"
+  end if
+  if MonsterExtreme = 8 then 
+  ImgMonster.Value = "38.gif"
+  lblMonsterName.caption = "Devil"
+  end if
+  if MonsterExtreme = 9 then 
+  ImgMonster.Value = "39.gif"  
+  lblMonsterName.caption = "Mao"
+  end if
+  if MonsterExtreme = 10 then 
+  ImgMonster.Value = "30.gif"
+  lblMonsterName.caption = "Slith"
+  end if
+  
+  potionChance = 1 or 2 
+    /* Monster ATK Pts */
+    MonsterATK = int(50 * Rnd) + 300
+    /* Monster DFS Pts */
+    MonsterDFS = int(50 * Rnd) + 170
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = int(100 * Rnd) + 5000
+    MonsterHPOriginal = MonsterHP
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+   /* Display the current floor */
+   LblFloor.caption = "Floor: " & FloorLevel & " F"
+   /* Randomize EXP player will get for defeating the monster */
+   MonsterEXP = int(10 *Rnd) + 35
+End if 
+
+
+/* F21: Summon Boss */
+if floorlevel = 16 then 
+  ImgMonster.Value = "41.gif"
+  lblMonsterName.caption = "Death"
+    /* Monster ATK Pts */
+    MonsterATK = int(5 * Rnd) + 9000
+    /* Monster DFS Pts */
+    MonsterDFS = int(5 * Rnd) + 9000
+    /* Monster HP Pts, Display Original HP and current Hp */
+    MonsterHP = 500000
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & 500000
+   LblFloor.caption = "Floor: Boss"
+End if 
+
+'after defeat the boss
+If floorlevel = 17 then 
+  cmdMiddle.visible = false
+  cmdRIght.visible = false
+  CmdLeft.visible = false
+  lblWin.visible = True
+  CmdPotion.visible = False
+  CmdATK.visible = False
+  CmdRun.visible = false
+  CmdSpell.visible = false
+  CmdUltimate.visible = False
+  imgMonster.visible = False
+End if
+End Sub
+  
+
+
+
+
+
+
+
+
+/* Player Attack Monster*/
+Private Sub CmdATK_OnEvent()
+  /* Start the timer for Monster's attack. Until monster atack player, disable player's ATK Command */
+  CmdATK.enabled = False
+    PlayerDamage = PlayerATK - MonsterDFS
+      if PlayerDamage = 0 or PlayerDamage < 0 then 
+      PlayerDamage = 1
+      End if
+  /* Decrease Monster Hp and display the currrent HP as well as original HP */
+  MonsterHP = MonsterHP - PlayerDamage
+  lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+  
+ 'Monster's attack 
+  MonsterName = lblMonsterName.caption
+  MonsterDamage = MonsterATK - PlayerDFS 
+      if MonsterDamage = 0 or MonsterDamage < 0 then
+        MonsterDamage = 1
+      end if
+  PlayerHP = PlayerHP - MonsterDamage
+  /*Player dead*/
+  if PlayerHp = 0 or PlayerHP < 0 then
+  lblGameOver.visible = True
+  CmdRestartF1.visible = True
+  CmdRestartFX.visible = True
+  cmdATK.visible = False 
+  CmdPotion.visible = false
+  Cmdrun.visible = false
+  CmdSpell.visible = false
+  CmdUltimate.visible = False
+  end if
+  /* Monster attack, display player's HP, enable ATK button for further player's attack */
+   lblDescription.Caption  = "Player dealt " & PlayerDamage & " Damage," & MonsterName & " dealt " & MonsterDamage & " damages"
+   lblHp.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+   cmdATK.enabled = True
+  
+  
+  
+  
+  /* Killing monster */
+ if MonsterHP < 1 then
+  /* When monster's HP reach 0 or below, then monster's HP = 0 */
+    MonsterHP = 0
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+    /*Randomly drop potion*/
+      Potiondrop = int(5 * Rnd)
+      if potiondrop = potionChance then 
+        Potion = potion + 1
+        lblpotion.caption = "potion: " & potion
+      end if
+      /*Display cross, disable attack option, and show next button */
+      imgCross.visible = True
+      CmdMiddle.visible = True
+      CmdRight.visible = True
+      CmdLeft.visible = True
+      cmdATK.enabled = False 
+      ATKCount = 1
+      
+     'Spell point up
+      if lblspell4.visible = true then
+        lblspell5.visible = true
+        lblSpellMax.visible = True
+      end if
+      if lblspell3.visible = true then
+        lblspell4.visible = true
+      end if
+      if lblspell2.visible = true then
+        lblspell3.visible = true 
+      end if 
+      if lblspell1.visible = true then
+        lblspell2.visible = true     
+      end if
+      if lblspell1.visible = False then 
+        lblspell1.visible = True
+      end if
+     
+  /* Give player random EXP based on monster's strength and display it */
+  PlayerEXP = PlayerEXP - MonsterEXP
+  lblEXP.caption = "EXP: Next level in  " &  PlayerEXP & " Pts"    
+  End if
+  
+  
+  
+  
+  
+  /* Leveling up */
+ if PlayerEXP < 1 then 
+   /* generate next EXP needed to level up higher */
+   PlayerEXP = 10 + Playerlevel * 4
+   PlayerLevel = PlayerLevel + 1
+     PlayerHPOriginal = PlayerHPOriginal + PlayerLevel * 15
+     lblHp.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+     PlayerHP = PlayerHPOriginal
+       PlayerATK = PlayerATK + Playerlevel * 3
+       LblATK.caption = "Attack: " & PlayerATK
+         PlayerDFS = PlayerDFS + Playerlevel 
+         LblDFS.caption = "Defense: " & PlayerDFS
+    /* Display player's new level and how many Points until next level*/
+    lblLevel.caption = "Level: " & PlayerLevel
+    lblEXP.caption = "EXP: Next level in  " &  PlayerEXP & " Pts"
+    lblDescription.caption = "You leveled up to " & Playerlevel
+  End if 
+  
+End Sub
+
+
+
+
+
+Private Sub CmdPotion_OnEvent()
+  'can't use potion if there aren't any
+  if potion = 0 then 
+    lblDescription.caption = "You have no potion"
+  end if
+  
+  'Use to restore health points
+  if potion > 0 then 
+  Potion = potion - 1
+  lblPotion.caption = "Potion:" & potion
+  PlayerHP = PlayerHPOriginal
+  lblHp.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+  end if
+End Sub
+
+
+Private Sub CmdSpell_OnEvent()
+  lblspell1.visible = False
+  lblspell2.visible = False
+  lblspell3.visible = False
+  lblspell4.visible = False
+  lblspell5.visible = False
+  lblspellMax.visible = False
+  CmdSpell.visible = False
+  
+  SpellDamage = (PlayerATK - MonsterDFS)*3
+      if SpellDamage = 0 or SpellDamage < 0 then 
+      SpellDamage = 10
+      end if
+  MonsterHP = MonsterHP - SpellDamage
+  lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+  
+  if MonsterHP < 1 then
+  /* When monster's HP reach 0 or below, then monster's HP = 0 */
+    MonsterHP = 0
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+    /*Randomly drop potion*/
+      Potiondrop = int(5 * Rnd)
+      if potiondrop = potionChance then 
+        Potion = potion + 1
+        lblpotion.caption = "potion: " & potion
+      end if
+      /*Display cross, disable attack option, and show next button */
+      imgCross.visible = True
+      CmdMiddle.visible = True
+      CmdRight.visible = True
+      CmdLeft.visible = True
+      cmdATK.enabled = False 
+      ATKCount = 1
+  end if
+  'Ultimate move up
+  if lblUltimate4.visible = true then
+        lblUltimate5.visible = true
+        lblUltimateMax.visible = True
+  end if
+      if lblUltimate3.visible = true then
+        lblUltimate4.visible = true
+      end if
+      if lblUltimate2.visible = true then
+        lblUltimate3.visible = true 
+      end if 
+      if lblUltimate1.visible = true then
+        lblUltimate2.visible = true     
+      end if
+      if lblUltimate1.visible = False then 
+        lblUltimate1.visible = True
+      end if
+  
+End Sub
+
+
+
+
+
+
+Private Sub CmdUltimate_OnEvent()
+  CmdUltimate.visible = False
+  lblUltimate1.visible = False
+  lblUltimate2.visible = False
+  lblUltimate3.visible = False
+  lblUltimate4.visible = False
+  lblUltimate5.visible = False
+  lblUltimateMax.visible = False
+  
+  UltimateDamage = PlayerATK*5
+      if UltimateDamage = 0 or UltimateDamage < 0 then 
+      UltimateDamage = 100
+  end if
+  MonsterHP = MonsterHP - UltimateDamage
+  lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+  
+  if MonsterHP < 1 then
+  /* When monster's HP reach 0 or below, then monster's HP = 0 */
+    MonsterHP = 0
+    lblMonsterHP.caption = "HP: " & MonsterHP & "/" & MonsterHPOriginal
+    /*Randomly drop potion*/
+      Potiondrop = int(5 * Rnd)
+      if potiondrop = potionChance then 
+        Potion = potion + 1
+        lblpotion.caption = "potion: " & potion
+      end if
+      /*Display cross, disable attack option, and show next button */
+      imgCross.visible = True
+      CmdMiddle.visible = True
+      CmdRight.visible = True
+      CmdLeft.visible = True
+      cmdATK.enabled = False 
+      ATKCount = 1     
+   end if
+  
+End Sub
+
+
+
+
+/* Quit */
+Private Sub CmdQuit_OnEvent()
+  
+  Response = msgbox("Are you sure you want to finish?",kbretrycancel,"")
+  If Response = 1 then end
+ 
+End Sub
+
+
+/* Help, open different form that has option to pick what player want to know*/
+Private Sub CmdHelp_OnEvent()
+  Help.open
+End Sub
+
+
+
+
+
+Private Sub CmdRestartF1_OnEvent()
+  'bring player back to floor 1 with player's stats remained
+  lblGameover.visible = False
+  CmdRestartF1.visible = False
+  CmdRestartFX.visible = False
+  Floor = 1
+  lblfloor.caption = floorlevel
+  lbldescription.caption = "Pick any path" 
+  lblmonstername.caption = " "
+  lblmonsterHP.caption = "Health:  " 
+  cmdspell.visible = false
+  cmdUltimate.visible = false
+  PlayerHP = PlayerHPOriginal
+  lblHp.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+  cmdMiddle.visible = True
+  CmdRight.visible = True
+  CmdLeft.visible = True
+  imgmonster.visible = false 
+  cmdATK.visible = false
+  CmdPotion.visible = false
+  cmdRun.visible = false
+  if lblSpellMax.visible = True then 
+  cmdSpell.visible = True
+  end if
+  if lblUltimateMax.visible = True then 
+  cmdUltimate.visible = True
+  end if
+End Sub
+
+
+
+Private Sub CmdRestartFX_OnEvent()
+  'restart at the level player died on
+  lblGameover.visible = False
+  CmdRestartF1.visible = False
+  CmdRestartFX.visible = False
+  PlayerHP = PlayerHPOriginal
+  lblHp.caption = "Health: " & PlayerHP & "/" & PlayerHPOriginal
+  cmdATK.visible = True
+  CmdPotion.visible = True
+  CmdRun.visible = True
+  
+  if lblSpellMax.visible = True then 
+  cmdSpell.visible = True
+  end if
+  if lblUltimateMax.visible = True then 
+  cmdUltimate.visible = True
+  end if
+End Sub
+
+
+
+Private Sub CmdRun_OnEvent()
+'player can't run away from Boss
+if floorlevel = 16 then 
+  lbldescription.caption = "You can't run away from Boss"  
+end if  
+
+'With norma monsters  
+if floorlevel > 0 and floorlevel < 16 then
+'40% chance to get away
+runaway = int(5 * Rnd) 
+if runaway = 0 or 1 then
+ImgMonster.visible = False
+lblMonsterHP.visible = false
+CmdLeft.visible = True
+CmdRight.visible = True
+CmdMiddle.visible = True
+end if
+
+'60% chance to fail to get away, monster attack player, turn end
+if runaway = 2 or 3 or 4 then
+  MonsterName = lblMonsterName.caption
+  MonsterDamage = MonsterATK - PlayerDFS 
+      if MonsterDamage = 0 or MonsterDamage < 0 then
+        MonsterDamage = 1
+      end if
+  PlayerHP = PlayerHP - MonsterDamage
+  lbldescription.caption = "You failed to get away. " & Monstername & "dealt " & Monsterdamage & "Damages"
+end if
+end if
+
+End Sub
+
+
+
+
+

@@ -1,0 +1,122 @@
+﻿Begin Form *
+    Background = "HelpWallpaper.jpg"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 207
+    LoadedHeight = 369
+    LoadedWidth = 492
+    LoadedX = 202
+    LoadedY = 137
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 374
+    X = 199
+    Y = 108
+
+
+  Begin Label LblHelp
+    Caption = "What would you like to know?"
+    DrawOnPaint = True
+    Enabled = True
+    FontColor = "&HFFFFFF"
+    FontSize = 24
+    GlobalX = 0
+    GlobalY = 0
+    Height = 59
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 351
+    WordWrap = True
+    X = 11
+    Y = 1
+  End
+
+  Begin CommandButton CmdHelp1
+    Caption = "Objective"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 140
+    X = 20
+    Y = 73
+  End
+
+  Begin CommandButton CmdHelp2
+    Caption = "How to play"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 140
+    X = 191
+    Y = 71
+  End
+
+  Begin CommandButton CmdHelp3
+    Caption = "CopyRight"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 140
+    X = 107
+    Y = 133
+  End
+
+End Form
+
+
+Private Sub CmdHelp1_OnEvent()
+  msgbox("Your king has been kidnapped by Evil monster")
+  msgbox("You will start at the bottom of a tower, there is a boss waiting on top floor of the tower")
+  msgbox("Your objective is to fight your way through monsters to defeat boss and save the king")
+End Sub
+
+
+
+Private Sub CmdHelp2_OnEvent()
+  msgbox("Pick either attack, spell, Ultimate move, run, or use potion to kill a monster you face")
+  msgbox("Here are some shortcuts to this game")
+  msgbox("press A for attack")
+  msgbox("press P for potion ")
+  msgbox("press R for run away")
+  msgbox("press ^ for picking middle path")
+  msgbox("press < for picking left path ")
+  msgbox("press > for picking right path")
+  msgbox("there is also a cheat key. try to find it and you will be rewarded generously")
+  msgbox("When you kill the moster, you will gain experience to get stronger and spell gage goes up by one")
+  msgbox("Use spell when the spell guage is at Max for strong attack and it will increase Ultimate move Guage")
+  msgbox("Use Ultimate move when the Ultimate guage is full for Ultimately strong attack")
+  msgbox("defeat the boss for a completion of this game")
+  msgbox("Good luck!")
+End Sub
+
+
+
+Private Sub CmdHelp3_OnEvent()
+  msgbox("Monster pictures rights belong to SquareEnix")
+  
+End Sub
+
